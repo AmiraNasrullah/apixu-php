@@ -84,9 +84,7 @@ class Api implements ApiInterface
 
         return sprintf(
             Config::API_URL,
-            Config::API_VERSION,
             $methodOrUrl,
-            Config::FORMAT,
             $this->apiKey,
             $query
         );
